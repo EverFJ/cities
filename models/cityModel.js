@@ -6,4 +6,4 @@ const citySchema = new mongoose.Schema({
     population: Number
 })
 
-module.exports = cityModel("City", citySchema)
+module.exports = mongoose.model("City", citySchema)
